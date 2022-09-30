@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+body{
+    scrollbar-color: white;
+    background-color: rgb(44, 44, 44);
+}
+.topscreen{
+    background: radial-gradient(rgb(156, 156, 156) , rgb(54, 54, 54)), url(images/Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply; 
+    padding: 20px 55px 20px 55px;
+    width: 100%;
+    height: 100vh;
+    
+}
+.logo{
+    height: 36px;
+}
+button{
+    background-color: #e50914;
+    border: none;
+    color: white;
+}
+.topmost{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px 55px 20px 55px; */
+}
+.midpart{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.midtop{
+    max-width:640px;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+}
+h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+}
+h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.signin{
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.getstarted{
+    display: flex;
+}
+.inputbox{
+    height: 60px;
+    width: 450px;
+    margin: 0;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.start{
+    margin: 0;
+    height:60px;
+    width: 220px;
+    font-size: 28px;
+}
+/* second section */
+.tvenjoy{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: black;
+    margin-top: 10px;
+    padding:3% 10% 10% 10%;
+    
+}
+.detail{
+    width:50%;
+    height: 100%;
+    padding: 10% 0 10% 0px;
+}
+.tv{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+.videoo{
+    width: 50%;
+    height: 100%;
+    position: relative;
+  
+}
+.video1{
+    position: absolute;
+    width: 74%;
+    top: 6vw;
+    left:12%;
+    z-index: 1;
+}
+/* third section */
+.downloads{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin-top: 10px;
+    padding:5% 8% 5% 0%;
+}
+.rightdownload{
+    width: 70%;
+    padding: 0px 50px 0 50px;
+    z-index: 1;
+  
+}
+.downloadmain{
+    position: absolute;
+    top: 70%;
+    height: 80px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px gray solid;
+    overflow: hidden;
+    background-color: black;
+}
+
+.strangerthings{
+    height: 95%;
+}
+.gif{
+    height: 80%;
+}
+.downloadgirl{
+    width: 90%;
+}
+.strangetext{
+    color: blue;
+    font-size: 16px;
+    margin-top: 0%;
+}
+.text h3{
+    line-height: 15px;
+}
+.image2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.everywhere{
+    margin-top: 10px;
+    padding:5% 8% 5% 8%;
+    height: fit-content;
+    background-color: black;
+}
+.everywhere .text{
+    width: 70%;
+    text-align: left;
+}
+/* kids section */
+.kidsection{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin-top: 10px;
+    padding:5% 8% 5% 8%;
+}
+.kids{
+    width: 45%;
+}
+.kidsection .text{
+    width:55%;
+}
+/* faqsection */
+.faqsection{
+    margin-top: 10px;
+    padding:5% 8% 5% 8%;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faqcontainer h1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.faqcontainer{
+    margin-top: 30px;
+    width: 70%;
+}
+.faq{
+    margin-top: 10px;
+    background-color: #313131;
+    width: 100%;
+    padding: 20px;
+}
+.answer{
+    display: none;
+    margin-top: 30px;
+}
+/* displaying answer on hover of Question */
+#F1:hover>#A1{
+    display: block;
+}
+#F2:hover>#A2{
+    display: block;
+}
+#F3:hover>#A3{
+    display: block;
+}
+#F4:hover>#A4{
+    display: block;
+}
+#F5:hover>#A5{
+    display: block;
+}
+#F6:hover>#A6{
+    display: block;
+}
+/* Connect us on email */
+.connect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding-bottom: 10%;
+}
+.connect h3{
+    text-align: center;
+}
+/* footer */
+footer{
+    margin-top: 10px;
+    background-color: black;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+a p{
+    font-size: 14px;
+    color:  #6b6b6b;
+ margin-bottom: 5px;
+}
+.nepalflix{
+    color:  #6b6b6b;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.contactme{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.footercontainer{
+    padding:5% 8% 5% 8%;
+    width: 80%;
+}
+.submenucontainer{
+   
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+   
+}
+.firstsubmenu{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+@media (max-width:950px){
+    .getstarted{
+        flex-direction: column;
+        align-items: center;
+    }
+     .start{
+            margin-top: 20px;
+            height:40px;
+            width: 130px;
+            font-size: 18px;
+        }
+    h1{
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    h2{
+        font-size: 18px;
+        margin-bottom: 11px;
+        line-height: 28px;
+    }
+    h3{
+        line-height: 20px;
+    }
+    .inputbox{
+        margin-top: 10px;
+        height: 50px;
+        max-width:80vw;
+    }
+    .midpart{
+        margin-top: 100px;
+    }
+    /* secondsection */
+    .tvenjoy{
+        flex-direction: column;
+        align-items: flex-start;
+        height:100vw;
+    }
+    .detail{
+        width:100%;
+        height: 30%;
+        text-align: center;
+        z-index: 12;
+    }
+    .tv{
+        position: absolute;
+        width: 90%;
+        top: -50%;
+        left: 0;
+        z-index: 9;
+    }
+    .videoo{
+        margin-top: 100px;
+        width: 100%;
+        height: 50%;
+        position: relative;
+    }
+    .video1{
+        position: absolute;
+        width: 64%;
+        top: -24%;
+        left: 13%;
+        z-index: 1;
+    }
+/* Third secton */
+.downloads{
+  padding:0 ;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.rightdownload{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+.leftdownload{
+    margin-bottom: 30px;
+}
+.everywhere .text{
+    margin:30px 0;
+    width: 100%;
+    text-align: center;
+}
+/* fourthsection */
+.kidsection{
+    flex-direction: column-reverse;
+    padding:10% 8% 10% 8%;
+}
+.kids{
+    width: 100%;
+}
+.kidsection .text{
+    width:100%;
+    text-align: center;
+}
+/* faq */
+.faqcontainer{
+    margin-top: 30px;
+    width: 90%;
+}
+.footercontainer{
+    width: 100%;
+}
+
+.firstsubmenu{
+     flex-direction: column;
+}
+}
+@media (max-width:549px){
+    .faqcontainer{
+        width: 100%;
+    }
+    .faqsection{
+        padding:5% 0% 5% 0%;
+    }
+}
+@media (max-width:480px)
+{
+    .submenucontainer{
+        flex-direction: column;
+    }
+}

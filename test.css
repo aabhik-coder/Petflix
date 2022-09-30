@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+.faqes{
+    width: 60%;
+}
+
+.faq
+{
+    background-color: rgb(86, 86, 86);
+}
+h1{
+    color: white;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+}
+h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.answer{
+    display: none;
+}
+#F1:hover>#A1{
+    display: block;
+}
